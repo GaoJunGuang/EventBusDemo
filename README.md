@@ -277,4 +277,4 @@ public class StickyEvent {
 ```
 
 运行的效果：
-![这里写图片描述](http://img.blog.csdn.net/20170222224516070?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZGFuZ25pYW5taW5neXVlX2dn/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![这里写图片描述](666.gif)
