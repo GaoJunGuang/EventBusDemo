@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_main_send_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主线程发送消息"
+        android:onClick="mainSend"/>
+
+    <Button
+        android:id="@+id/bt_stick_send_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="接受粘性事件"
+        android:onClick="stickReceived"/>
+
+    <TextView
+        android:id="@+id/tv_send_show_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:text="显示结果(粘性事件):"/>
+
+    <TextView
+        android:id="@+id/tv_received_stick_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        />
+
+</LinearLayout>
